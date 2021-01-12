@@ -6,7 +6,7 @@ imageMeta:
   attributionLink:
 featured: true
 authors:
-  - ghost
+  - wenfeng
 date: Tue Jun 12 2018 17:58:54 GMT+0100 (IST)
 tags:
   - getting-started
@@ -20,13 +20,11 @@ If you want to start a new post we recommend that you use the built in generator
 
 For now, though, let's run you through some of the basics of editing Markdown. You can see this post [directly on github](https://github.com/empress/empress-blog/blob/master/blueprints/empress-blog/files/__base__/content/the-editor.md) if you want to see all the Markdown we've used. (don't forget to click the _Raw_ button to see the source).
 
-
 ## Formatting text
 
 The most common shortcuts are of course, **bold** text, _italic_ text, and [hyperlinks](https://example.com). These generally make up the bulk of any document. You can also make headings using `#` at the start of the line (multiple `#` symbols for h2/h3/h4/etc)
 
 With just a couple of extra characters here and there, you're well on your way to creating a beautifully formatted story.
-
 
 ## Inserting images
 
@@ -39,7 +37,6 @@ Images in Markdown look just the same as links, except they're prefixed with an 
 If you want to add images to your empress-blog app you can just drop them in the `/public` folder, which you should see if you are running this locally!
 
 _**Important Note:** empress-blog does not currently have automatic image resizing, so it's always a good idea to make sure your images aren't gigantic files **before** adding them to your project._
-
 
 ## Making lists
 
@@ -55,7 +52,6 @@ or
 - Feed the cat
 - Come up with idea for next story
 
-
 ## Adding quotes
 
 When you want to pull out a particularly good excerpt in the middle of a piece, you can use `>` at the beginning of a paragraph to turn it into a Blockquote. You might've seen this formatting before in email clients.
@@ -63,7 +59,6 @@ When you want to pull out a particularly good excerpt in the middle of a piece, 
 > A well placed quote guides a reader through a story, helping them to understand the most important points being made
 
 All themes handles blockquotes slightly differently. Sometimes they'll look better kept shorter, while other times you can quote fairly hefty amounts of text and get away with it. Generally, the safest option is to use blockquotes sparingly.
-
 
 ## Dividing things up
 

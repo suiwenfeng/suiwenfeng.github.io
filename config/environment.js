@@ -24,8 +24,8 @@ module.exports = function (environment) {
     },
 
     blog: {
-      title: 'empress-blog',
-      description: 'Static Blog System - Built with Ember',
+      title: 'Yun Ji',
+      description: 'Blogging is a marathon. Not a sprint!',
       coverImage: '/images/blog-cover.jpg',
 
       navigation: [{
@@ -35,6 +35,10 @@ module.exports = function (environment) {
         label: 'Built by Chris Manson',
         route: 'page',
         id: 'chris-manson'
+      }, {
+        label: 'Getting Started',
+        route: 'tag',
+        id: 'getting-started'
       }]
     },
 
