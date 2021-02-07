@@ -39,6 +39,10 @@ module.exports = function (environment) {
         label: 'Getting Started',
         route: 'tag',
         id: 'getting-started'
+      }, {
+        label: '劝你用Linux系列',
+        route: 'tag',
+        id: 'use-linux'
       }]
     },
 
