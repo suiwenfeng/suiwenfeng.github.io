@@ -42,7 +42,7 @@ module.exports = function (environment) {
       }, {
         label: '劝你用Linux系列',
         route: 'tag',
-        id: 'use-linux'
+        id: 'try-linux'
       }]
     },
 

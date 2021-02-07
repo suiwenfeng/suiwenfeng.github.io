@@ -7,9 +7,9 @@ imageMeta:
 featured: true
 authors:
   - wenfeng
-date: Sat Fed 07 2021 18:08:00 GMT+0800 (CST)
+date: Sun Fed 07 2021 18:08:00 GMT+0800 (CST)
 tags:
-  - use-linux
+  - try-linux
 ---
 
 自从大学开始学习计算机以来，就对Linux各种大佬滚烫的人生无比羡慕，从刚入坑被各种crash折磨，找方案，发issue, 到现在充分磨合，各种软文劝别人换系统。不得不说，Linux确实陪伴了我整个青春，我也见证了Linux用户体验飞速提升的10年。在程序员日常工作中，Linux带来的简洁，低占用，高生产力，已经全面碾压Windows系，Mac系了
@@ -74,6 +74,6 @@ bash-5.0$ winetricks riched20
 
 ## 上效果图
 
-![效果图](/images/wxwork-wine.png)
+![效果图](/images/wxwork-wine.jpg)
 
 ## 吃上瓜的，别忘记点赞

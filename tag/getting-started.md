@@ -1,6 +1,7 @@
 ---
-name: 劝你用Linux系列
+name: Getting Started
 image:
 imageMeta:
 ---
-关于如何利用Linux提高生产力的一切。
+A description for the getting-started tag. If you delete this line it will say
+`A collection of X posts` where the description should go.
