@@ -7,7 +7,7 @@ imageMeta:
 featured: true
 authors:
   - wenfeng
-date: Sun Fed 07 2021 18:08:00 GMT+0800 (CST)
+date: Sun Feb 07 2021 18:08:00 GMT+0800 (CST)
 tags:
   - try-linux
 ---
