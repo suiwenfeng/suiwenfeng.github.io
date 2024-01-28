@@ -1,6 +1,6 @@
 AUTHOR = 'Wenfeng Sui'
 SITENAME = 'Expl'
-SITEURL = ""
+SITEURL = "https://suiwenfeng.github.io"
 
 PATH = "content"
 
