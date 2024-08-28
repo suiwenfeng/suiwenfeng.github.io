@@ -9,6 +9,9 @@ on:
   push:
     branches: ["main"]
 
+  schedule:
+    - cron: "0 17 * * *" 
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -39,6 +42,8 @@ jobs:
         run: pip install pelican ghp-import
       - name: Build with Pelican
         run: make publish
+      - name: Download Clash.yaml
+        run: curl -L "https://nodefree.githubrowcontent.com/$(date +%Y)/$(date +%m)/$(date +%Y%m%d).yaml" -o "$(OUTPUTDIR)/clash.yaml"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
