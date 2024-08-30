@@ -39,7 +39,7 @@ jobs:
         with:
           python-version: '3.10'
       - name: Install dependencies
-        run: pip install pelican ghp-import
+        run: pip install pelican ghp-import Markdown
       - name: Build with Pelican
         run: make publish
       - name: Download Clash.yaml
