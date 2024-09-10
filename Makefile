@@ -28,6 +28,20 @@ ifneq ($(PORT), 0)
 	PELICANOPTS += -p $(PORT)
 endif
 
+YEAR := $(shell date +%Y)
+MONTH := $(shell date +%m)
+
+# Detect OS
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Linux)
+    DATE_CMD := date -d "yesterday" +%Y%m%d
+else
+    DATE_CMD := date -v -1d +%Y%m%d
+endif
+DATE := $(shell $(DATE_CMD))
+
+# Define the URL and the output file
+URL := https://nodefree.githubrowcontent.com/$(YEAR)/$(MONTH)/$(DATE).yaml
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -70,6 +84,7 @@ devserver-global:
 
 publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
+	curl -L "$(URL)" -o "$(OUTPUTDIR)/clash.yaml"
 
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)"
